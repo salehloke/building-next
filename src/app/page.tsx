@@ -108,6 +108,8 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+      <a href="/home">test</a>
     </main>
   )
 }
