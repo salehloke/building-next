@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Stack } from 'react-bootstrap';
 
 export default function Home() {
   return (
@@ -108,8 +111,11 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <Stack direction='horizontal' gap={2}>
+        <a class="btn btn-primary" href="/home">test</a>
+        <a class="btn btn-primary" href="/basic-form">Basic Form</a>
 
-      <a href="/home">test</a>
+      </Stack>
     </main>
   )
 }
