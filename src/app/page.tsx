@@ -114,6 +114,7 @@ export default function Home() {
       <Stack direction='horizontal' gap={2}>
         <a class="btn btn-primary" href="/home">test</a>
         <a class="btn btn-primary" href="/basic-form">Basic Form</a>
+        <a class="btn btn-primary" href="/todo">Todo</a>
 
       </Stack>
     </main>
